@@ -1,6 +1,6 @@
 ---
 - name: Variables precedence checks
-  hosts: all
+  hosts: qa
   gather_facts: false
 
   tasks:

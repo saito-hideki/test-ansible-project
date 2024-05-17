@@ -1,6 +1,6 @@
 ---
 - name: Variables precedence checks
-  hosts: all
+  hosts: dev
   gather_facts: false
 
   tasks:
