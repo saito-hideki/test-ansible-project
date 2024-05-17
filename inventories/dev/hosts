@@ -2,7 +2,7 @@
 server.dev.example.com ansible_connection=local
 
 [tokyo]
-server.tokyo.dev.example.com ansible_connection=local
+server.tokyo.example.com ansible_connection=local
 
 [japan]
 server.japan.example.com ansible_connection=local
