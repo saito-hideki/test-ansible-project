@@ -1,0 +1,2 @@
+check_dev: true
+message: "It's from inventories/dev/group_vars/dev.yaml"

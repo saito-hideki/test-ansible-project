@@ -1,0 +1,2 @@
+check_osaka: true
+message: "It's from inventories/qa/group_vars/okasa.yaml"

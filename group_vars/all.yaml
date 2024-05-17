@@ -1,0 +1,7 @@
+check_all: true
+check_dev: false
+check_qa: false
+check_japan: false
+check_tokyo: false
+check_osaka: false
+message: "It's from group_vars/all.yaml"

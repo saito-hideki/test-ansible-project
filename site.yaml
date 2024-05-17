@@ -1,0 +1,27 @@
+---
+- name: Variables precedence checks
+  hosts: all
+  gather_facts: false
+
+  tasks:
+    - name: Display group_vars/all
+      ansible.builtin.debug:
+        var: check_all
+    - name: Display group_vars/japan
+      ansible.builtin.debug:
+        var: check_japan
+    - name: Display inventories/dev/group_vars/dev
+      ansible.builtin.debug:
+        var: check_dev
+    - name: Display inventories/dev/group_vars/tokyo
+      ansible.builtin.debug:
+        var: check_tokyo
+    - name: Display inventories/qa/group_vars/qa
+      ansible.builtin.debug:
+        var: check_qa
+    - name: Display inventories/qa/group_vars/okasa
+      ansible.builtin.debug:
+        var: check_osaka
+    - name: Display message
+      ansible.builtin.debug:
+        var: message

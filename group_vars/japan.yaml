@@ -1,0 +1,2 @@
+check_japan: true
+message: "It's from group_vars/japan.yaml"

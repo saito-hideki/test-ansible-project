@@ -1,0 +1,2 @@
+check_qa: true
+message: "It's from inventories/gq/group_vars/qa.yaml"
